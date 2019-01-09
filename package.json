@@ -1,0 +1,27 @@
+{
+  "name": "facerecognition-app-server",
+  "version": "1.0.0",
+  "description": "Server for facerecognition app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeKam/facerecognition-app-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeKam/facerecognition-app-server/issues"
+  },
+  "homepage": "https://github.com/KeKam/facerecognition-app-server#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
